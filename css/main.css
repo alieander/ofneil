@@ -1,0 +1,40 @@
+@media screen {
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  h3, h5{
+    margin: 0px;
+  }
+  .sidebar-nav {
+    padding: 9px 0;
+  }
+  dl {
+    font-size: 17.5px;
+    font-weight: 300;
+  }
+  dt, dd {
+    line-height: 1.25;
+    padding-bottom: 6px;
+  }
+}
+
+@media print {
+  .navbar, .oldnews {
+    display: none;
+  }
+  .hero-unit {
+    padding-bottom: 0px;
+  }
+  h2 {
+    font-size: 16pt;
+  }
+  h3 {
+    font-size: 14pt;
+    margin-top: 30px;
+  }
+  p {
+    font-size: 10pt;
+    padding-bottom: 5px;
+  }
+}
