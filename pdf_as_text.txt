@@ -1,0 +1,165 @@
+Thomas O’Neil
+Principal Software Engineer
+
+Work
+History
+
+San Francisco
+
+・
+
+alieander@gmail.com
+
+・
+
+231-492-3019
+
+EasyPost - San Francisco, CA
+Senior Engineer (Oct 2022 - Present)
+
+Designed, implemented, and migrated a usage-based, stats-driven billing application,
+dramatically simplifying billing for a new product. 
+
+Streamlined processes to reduce manual work and improve accuracy in billing operations.
+
+Served as acting tech lead for the Finance Engineering team, mentoring other engineers.
+
+Fastly - San Francisco, CA
+
+Principal Engineer (Oct 2020 - Oct 2022)
+
+Designed and deployed a distributed messaging queue system for cross-service
+communication, usage aggregation, and stats collection. 
+
+Replaced a legacy billing platform with a third-party solution while maintaining all core user
+features. 
+
+Enabled near real-time billing and reduced new product billing implementations to
+configuration-only. 
+
+Built tools that allowed finance teams to manage billing configuration independently.
+
+
+Engineering Manager (Oct 2019 - Oct 2020)
+
+Managed the Data Insights engineering team responsible for data acquisition and delivery,
+with emphasis on usage aggregation for billing. 
+
+Led cross-team integrations of new and existing data into reports and billing applications.
+
+
+Senior Engineer (Jan 2017 - Oct 2020)
+
+Developed platform and API services in Ruby supporting Fastly’s scaling infrastructure.
+
+
+Engineer (Oct 2013 - Jan 2017)
+
+Huddler (Acquired by Wikia)
+
+- San Francisco
+
+, CA
+
+QA Automation Engineer & Integration Engineer (Dec 2012 - Oct 2013)
+
+Developed automated test platform and test suites to improve application reliability and
+quality. 
+
+Implemented frameworks and tools to validate functionality and support continuous
+integration.
+
+
+Integration Engineer (Jan 2010 - Dec 2012)
+
+Developed a highly configurable platform for data migration from various forum software
+platforms to the Huddler ecosystem.
+
+ducation
+
+E
+
+T h
+f
+
+ic
+
+igan
+
+ac
+
+elor o
+
+ec
+
+U v ty – H u ht , MI 
+
+ftw E
+
+nological
+
+Science
+
+, So
+
+ni
+
+are
+
+ersi
+
+ds
+
+E
+
+agle Sco
+
+ut
+
+- Sco
+
+ut
+
+ing
+
+g
+
+Databases
+
+
+Ruby on Rails, JavaScript,
+Python, Sinatra, Go
+
+war
+
+o
+
+on
+
+ngineering
+
+Languages & Frameworks
+
+
+Skills
+
+A
+
+M h
+B h
+
+MySQL, PostgreSQL
+(
+
+)
+
+America 2002
+
+Tools
+
+
+NSQ, Sidekiq, Chef, 
+
+Google Cloud Platform (GCP)
+
+

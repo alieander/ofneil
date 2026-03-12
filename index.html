@@ -1,27 +1,13 @@
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#132238">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Thomas of Neil - Resume</title>
+    <title>Thomas O'Neil - Resume</title>
   </head>
   <body>
-    <div class="navbar navbar-fixed-top" >
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" >Tommy O'Neil</a>
-          <ul class="nav">
-            <li class="divider-vertical"></li>
-            <li><a href="https://github.com/alieander">Github</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="http://www.linkedin.com/in/thomasaoneil">Linkedin</a></li>
-            <li class="divider-vertical"></li>
-            <li><a href="#address" data-toggle="modal">Contacts</a></li>
-            <li class="divider-vertical"></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <div id="address" class="modal hide fade">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -36,7 +22,7 @@
       <div class="modal-body">
         <address>
           30 Sanchez St.<br />
-          San Francsico, CA.<br />
+          San Francisco, CA.<br />
           94114<br />
         </address>
       </div>
@@ -48,64 +34,97 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid resume-shell">
       <div class="row-fluid">
-        <div class="hero-unit">
+        <div class="hero-unit page-intro">
           <h1>Tommy O'Neil</h1>
-          <p class="text-info">&nbsp;&nbsp;&nbsp;Software Engineer: San Francsico, CA</p>
+          <p class="text-info role-line">Principal Software Engineer · San Francisco, CA</p>
+          <p class="intro-summary">Building billing systems, platform services, and data pipelines that reduce operational overhead and make complex infrastructure easier to run.</p>
+          <ul class="intro-meta unstyled">
+            <li><a href="mailto:alieander@gmail.com">alieander@gmail.com</a></li>
+            <li><a href="tel:2314923019">231-492-3019</a></li>
+            <li>San Francisco, CA</li>
+          </ul>
+          <ul class="intro-links unstyled">
+            <li><a class="primary-link" href="tommy-resume.pdf" download>Download Resume PDF</a></li>
+            <li><a href="https://github.com/alieander">GitHub</a></li>
+            <li><a href="http://www.linkedin.com/in/thomasaoneil">LinkedIn</a></li>
+            <li><a href="#address" data-toggle="modal">Contact Details</a></li>
+          </ul>
         </div>
         <div class="span1"></div>
         <div class="span10">
-          <div class="row-fluid">
-            <h2>Skills</h2>
-            <dl class="dl-horizontal">
-              <dt>Languages</dt><dd>Ruby, JavaScript, Java, HTML/CSS, Go<br /> SQL( MySQL, PostgreSQL )</dd>
-              <dt>Libraries</dt><dd>Sidekiq, Rails, Rspec, Sinatra, NSQ, + many other common/popular ruby tools</dd>
-              <dt>Management</dt><dd>Experience with command-line, installation, maintenance, technical support and development tools on<br />
-              Linux, Windows, and OSX operating systems. Experience with creation, use, and maintenance of Chef cookbooks.</dd>
+          <div class="row-fluid resume-content">
+            <h2 class="section-title">Skills</h2>
+            <dl class="dl-horizontal skill-list">
+              <dt>Languages</dt><dd>Ruby, JavaScript, Python, Go</dd>
+              <dt>Frameworks</dt><dd>Ruby on Rails, Sinatra, Flask</dd>
+              <dt>Databases</dt><dd>MySQL, PostgreSQL</dd>
+              <dt>Tools</dt><dd>NSQ, Sidekiq, Chef, GCP</dd>
+              <dt>DevOps</dt><dd>Experience with command-line, installation, maintenance, technical support and development tools on<br />
+              Linux, Windows, and OS X operating systems. Experience with creation, use, and maintenance of Chef cookbooks.</dd>
             </dl>
 
-            <hr />
-            <h2>Experience</h2>
-            <h3>Engineer Manager of Data Insights | Fastly.com</h3>
-            <h5 class="muted">San Francisco, CA   October 2019 | Present</h5>
+            <hr class="section-divider" />
+            <h2 class="section-title">Experience</h2>
+            <h3>Senior Engineer | EasyPost</h3>
+            <h5 class="muted">San Francisco, CA   October 2022 | Present</h5>
             <blockquote>
-              <p>Manage data pipelines delivering stats required for business forecasting and billing</p>
-              <p>Responsible for a small team focused on data aquisition and delivery</p>
-              <p>Help other teams integrate existing and newly formed data into useful reports and billing applications</p>
+              <p>Designed, implemented, and migrated a usage-based, stats-driven billing application, dramatically simplifying billing for a new product.</p>
+              <p>Streamlined processes to reduce manual work and improve accuracy in billing operations.</p>
+              <p>Served as acting tech lead for the Finance Engineering team, mentoring other engineers.</p>
             </blockquote>
 
-            <h3>Engineer & Architect | Fastly.com</h3>
-            <h5 class="muted">San Francisco, CA   October 2013 | Present</h5>
+            <h3>Principal Engineer | Fastly</h3>
+            <h5 class="muted">San Francisco, CA   October 2020 | October 2022</h5>
             <blockquote>
-              <p>Maintained and improved existing customer facing ruby based API's.</p>
-              <p>Designed, implemented, and deployed a distributed messaging queue for cross service communications.</p>
-              <p>Replaced legacy billing platform with large third party provider while maintaining all core user features.</p>
-              <p>Used messaging services with existing API's to provide near real time billing via this third party.</p>
-              <p>Helped to reduce technical debt over all API's.</p>
+              <p>Designed, implemented, and deployed a distributed messaging queue for cross-service communications.</p>
+              <p>Replaced a legacy billing platform with a third-party solution while maintaining all core user features.</p>
+              <p>Enabled near real-time billing and reduced new product billing implementations to configuration-only.</p>
+              <p>Built tools that allowed finance teams to manage billing configuration independently.</p>
             </blockquote>
 
-            <h3>Quality Assurance Engineer | Huddler.com</h3>
+            <h3>Engineering Manager | Fastly</h3>
+            <h5 class="muted">San Francisco, CA   October 2019 | October 2020</h5>
+            <blockquote>
+              <p>Managed the Data Insights engineering team responsible for data acquisition and delivery, with emphasis on usage aggregation for billing.</p>
+              <p>Led cross-team integrations of new and existing data into reports and billing applications.</p>
+            </blockquote>
+
+            <h3>Senior Engineer | Fastly</h3>
+            <h5 class="muted">San Francisco, CA   January 2017 | October 2020</h5>
+            <blockquote>
+              <p>Developed platform and API services in Ruby supporting Fastly's scaling infrastructure.</p>
+            </blockquote>
+
+            <h3>Engineer | Fastly</h3>
+            <h5 class="muted">San Francisco, CA   October 2013 | January 2017</h5>
+            <blockquote>
+              <p>Maintained and improved existing customer-facing Ruby APIs.</p>
+              <p>Helped reduce technical debt across core API services.</p>
+            </blockquote>
+
+            <h3>QA Automation Engineer &amp; Integration Engineer | Huddler (Acquired by Wikia)</h3>
             <h5 class="muted">San Francisco, CA   December 2012 | October 2013</h5>
             <blockquote>
-              <p>Created custom automation framework using Selenium 2.0 for use in testing mobile platform.</p>
-              <p>Maintained and improved existing test suites as the code base evolved.</p>
+              <p>Developed automated test platform and test suites to improve application reliability and quality.</p>
+              <p>Implemented frameworks and tools to validate functionality and support continuous integration.</p>
             </blockquote>
 
-            <h3>Integration Engineer | Huddler.com</h3>
-            <h5 class="muted">San Francisco, CA   January 2011 | October 2013</h5>
+            <h3>Integration Engineer | Huddler (Acquired by Wikia)</h3>
+            <h5 class="muted">San Francisco, CA   January 2010 | December 2012</h5>
             <blockquote>
-              <p>Built and maintained diverse set of platform migration tools.</p>
-              <p>Worked with customers to migrate large datasets with minimal downtime and dataloss.</p>
-              <p>Migrated serveral large forum sites from a variety of platforms to the Huddler ecosystem.</p>
+              <p>Developed a highly configurable platform for data migration from various forum software platforms to the Huddler ecosystem.</p>
+              <p>Worked with customers to migrate large datasets with minimal downtime and data loss.</p>
+              <p>Migrated several large forum sites from a variety of platforms to the Huddler ecosystem.</p>
             </blockquote>
 
             <div class="oldnews">
               <h3>Junior Programmer | BlueWare</h3>
               <h5 class="muted">Cadillac, MI   September 2010 | December 2011</h5>
               <blockquote>
-                <p>Assisted with design and development of large scale Java Product.</p>
-                <p>Designed and implemented customer specific message handling scripts.</p>
+                <p>Assisted with design and development of large-scale Java product.</p>
+                <p>Designed and implemented customer-specific message handling scripts.</p>
                 <p>Worked with designers to implement new corporate website.</p>
               </blockquote>
 
@@ -131,40 +150,39 @@
                 <p>Taught youth basic programming and computer repair skills.</p>
                 <p>Operated technical support for all camp areas.</p>
                 <p>Managed installation and setup of new hardware and software.</p>
-                <p>Managed a team of 5-8 people in a high risk environment.</li>
+                <p>Managed a team of 5-8 people in a high-risk environment.</p>
               </blockquote>
             </div>
 
-            <hr />
-            <h2>Projects</h2>
+            <hr class="section-divider" />
+            <h2 class="section-title">Projects</h2>
             <h3>Inventory Management System for UCC-America.com</h3>
-            <h5 class="muted">San Francsico, CA   2012</h5>
+            <h5 class="muted">San Francisco, CA   2012</h5>
             <blockquote>
               <p>Worked with a designer and the customer to create a specification for a new inventory management system based on existing workflow and the future needs of the customer.</p>
-              <p>Implemented this specification using PHP, Javascript and MySQL and deployed final product to the customers servers.</p>
+              <p>Implemented this specification using PHP, JavaScript, and MySQL and deployed the final product to the customer's servers.</p>
             </blockquote>
 
-            <hr />
-            <h2>Education</h2>
-            <dl class="dl-horizontal">
-              <dt>B.S. Software Eng.</dt><dd>2009 Michigan Technological University</dd>
+            <hr class="section-divider" />
+            <h2 class="section-title">Education</h2>
+            <dl class="dl-horizontal skill-list education-list">
+              <dt>B.S. Software Engineering</dt><dd>2009 Michigan Technological University</dd>
               <dt>National Camp School</dt><dd>2010 Aquatics<br />2007 Climbing</dd>
               <dt>Eagle Scout Award</dt><dd>2002</dd>
             </dl>
-            <hr />
+            <hr class="section-divider" />
 
-            <small>References available upon request</small>
+            <small class="closing-note">References available upon request</small>
           </div>
         </div>
       </div>
     </div>
 
-  </div>
     <!--JS-->
     <script type="text/javascript" src="jquery-1.9.1.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <!--JS-->
-    <?--Google Analytics --?>
+    <!-- Google Analytics -->
     <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
