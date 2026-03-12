@@ -1,8 +1,5 @@
 :root {
   --bg: #f7f5ef;
-  --bg-accent: #eef2f4;
-  --surface: #ffffff;
-  --surface-alt: #f3efe6;
   --ink: #18212b;
   --muted: #64707c;
   --line: #d9dde2;
@@ -41,20 +38,6 @@
     padding: 0 24px;
   }
 
-  .resume-shell > .row-fluid {
-    margin: 0;
-  }
-
-  .resume-shell .span1 {
-    display: none;
-  }
-
-  .resume-shell .span10 {
-    float: none;
-    width: auto;
-    margin-left: 0;
-  }
-
   .page-intro {
     margin: 0 0 38px;
     padding: 0 0 26px;
@@ -65,12 +48,7 @@
     box-shadow: none;
   }
 
-  .page-intro:before,
-  .page-intro:after {
-    display: none;
-  }
-
-  .hero-unit h1 {
+  .page-intro h1 {
     margin: 0;
     color: var(--ink);
     font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
@@ -92,30 +70,20 @@
   .intro-summary {
     max-width: 720px;
     margin: 18px 0 0;
-    padding-left: 0;
     color: #26313b;
     font-size: 21px;
     font-weight: 400;
   }
 
-  .intro-meta,
   .intro-links {
     margin: 18px 0 0;
     padding-left: 0;
     list-style: none;
   }
 
-  .intro-meta li,
   .intro-links li {
     display: inline-block;
     margin: 0 18px 10px 0;
-  }
-
-  .intro-meta li {
-    color: var(--muted);
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
   }
 
   .intro-links a {
@@ -221,7 +189,7 @@
   }
 
   h3,
-  h5,
+  .job-meta,
   blockquote {
     margin: 0;
     padding: 0;
@@ -240,7 +208,7 @@
     letter-spacing: -0.03em;
   }
 
-  h5.muted {
+  .job-meta {
     margin-top: 4px;
     color: var(--muted);
     font-size: 12px;
@@ -382,7 +350,7 @@
     padding: 0 18px;
   }
 
-  .hero-unit h1 {
+  .page-intro h1 {
     font-size: 52px;
   }
 
@@ -404,7 +372,7 @@
     padding: 0 14px;
   }
 
-  .hero-unit h1 {
+  .page-intro h1 {
     font-size: 40px;
   }
 
@@ -422,7 +390,6 @@
     font-size: 11px;
   }
 
-  .intro-meta li,
   .intro-links li {
     display: block;
     margin-right: 0;
@@ -468,22 +435,17 @@
     display: none;
   }
 
-  .resume-shell,
-  .resume-shell .span10 {
+  .resume-shell {
     max-width: none;
     width: auto;
     margin: 0;
     padding: 0;
   }
 
-  .resume-shell .span1 {
-    display: none;
-  }
-
   .page-intro,
   .skill-list,
   h3,
-  h5.muted,
+  .job-meta,
   blockquote {
     padding: 0;
     border: 0;
@@ -497,7 +459,7 @@
     padding-bottom: 8px;
   }
 
-  .hero-unit h1 {
+  .page-intro h1 {
     margin-bottom: 4px;
     color: #000;
     font-size: 28pt;
@@ -506,9 +468,8 @@
 
   .role-line,
   .intro-summary,
-  .intro-meta,
   .closing-note,
-  h5.muted,
+  .job-meta,
   blockquote p,
   .skill-list dd {
     color: #000;
@@ -548,7 +509,7 @@
     page-break-after: avoid;
   }
 
-  h5.muted {
+  .job-meta {
     margin-top: 2px;
     font-size: 8pt;
     letter-spacing: 0.08em;
@@ -584,11 +545,6 @@
   .intro-summary {
     margin-top: 6px;
     font-size: 10pt;
-  }
-
-  .intro-meta {
-    margin-top: 6px;
-    font-size: 9pt;
   }
 
   .closing-note {
